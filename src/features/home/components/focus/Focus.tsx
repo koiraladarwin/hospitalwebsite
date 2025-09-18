@@ -35,8 +35,8 @@ function Focus() {
   };
 
   return (
-    <div className="w-full h-[770px] bg-[#FAFAFA]">
-      <div className="w-full bg-cream px-10 pb-20">
+    <div className="w-full h-[850px] bg-[#FAFAFA]">
+      <div className="w-full bg-cream px-10 pb-15">
         <Header title="Focus" />
         <PhotoCards />
       </div>
