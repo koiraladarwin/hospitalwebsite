@@ -23,8 +23,8 @@ function Hero() {
         </div>
 
         <div className='flex gap-2  md:flex-row md:gap-6 pt-2'>
-          <Button title="Book Consultation" bgColor='bg-orange-gradient' textColor='text-white' />
-          <Button title="Our services" bgColor='bg-white' textColor='text-black' />
+          <Button title="Book Consultation" bgColor='bg-orange-gradient' textColor='text-white' hoverColor='hover:bg-orange-300' />
+          <Button title="Our services" bgColor='bg-white' textColor='text-black' hoverColor='hover:bg-slate-100' />
         </div>
 
       </div>

@@ -28,7 +28,7 @@ function TherapyCards({
           <p className="mt-2 text-md">{description}</p>
 
           <div className="mt-4">
-            <Button title="BOOK NOW" textColor="text-white" bgColor="bg-yellow-500" />
+            <Button title="BOOK NOW" textColor="text-white" bgColor="bg-yellow-500" hoverColor="hover:bg-yellow-400" />
           </div>
         </div>
       </div>
