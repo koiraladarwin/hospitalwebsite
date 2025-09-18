@@ -54,14 +54,14 @@ function Focus() {
             </div>
           ))}
         </Slider>
-        <div className="flex justify-center gap-3 mt-6 px-5 absolute right-[350px] bottom-15">
+        <div className="flex justify-center gap-3 mt-6 px-5 absolute right-[100px] md:right-[350px] md:bottom-15">
           {cardData.map((_, idx) => (
             <span
               key={idx}
               onClick={() => handleBubbleClick(idx)}
-              className={`w-2 h-2 rounded-full border-2 cursor-pointer ${idx === currentSlide
-                ? "bg-white border-orange-400"
-                : "bg-orange-400 border-transparent"
+              className={`w-3 h-3 rounded-full border-2 cursor-pointer ${idx === currentSlide
+                ? "bg-white border-yellow-400"
+                : "bg-yellow-400 border-transparent"
                 }`}
             />
           ))}
