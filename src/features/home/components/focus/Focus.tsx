@@ -36,12 +36,12 @@ function Focus() {
 
   return (
     <div className="w-full h-[770px] bg-[#FAFAFA]">
-      <div className="w-full bg-cream ps-10 pb-20">
+      <div className="w-full bg-cream px-10 pb-20">
         <Header title="Focus" />
         <PhotoCards />
       </div>
 
-      <div className="py-10 mx-auto px-5 -my-20 relative">
+      <div className="py-10 mx-auto -my-20 relative px-10  ">
 
         <Slider {...settings} ref={sliderRef}>
           {cardData.map((card, index) => (

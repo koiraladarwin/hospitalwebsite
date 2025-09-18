@@ -6,7 +6,7 @@ import acupressure from '../../../../../assets/acupressure.jpeg'
 function Image() {
   return (
     <div className='flex gap-4'>
-      <div className="flex flex-col gap-4 pt-15 ">
+      <div className="flex flex-col gap-4 pt-15 pl-15">
         <div className="relative w-40 h-40 rounded-md overflow-hidden">
           <img
             src={hotstone}
