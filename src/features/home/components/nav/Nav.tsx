@@ -4,7 +4,7 @@ import { RiArrowDropDownLine } from 'react-icons/ri';
 import { FaSearch } from 'react-icons/fa';
 function NavBar() {
   return (
-    <div className="bg-white h-70 md:h-28 px-10 pt-2 shadow-lg flex flex-col xl:flex-row items-center justify-between md:px-15 md:pb-3 xl:py-0 xl:h-18 sticky top-0 z-2 ">
+    <div className="bg-white h-70 md:h-28 px-10 pt-2 shadow-lg flex flex-col [@media(min-width:1152px)]:flex-row items-center justify-between md:px-15 md:pb-3 xl:py-0 lg:h-22 sticky top-0 z-2 [@media(min-width:1152px)]:h-18">
 
       <div className='flex items-center pt-2 pb-3 md:pt-0 md:pb-0'>
         <img src={logo} className='w-60' />

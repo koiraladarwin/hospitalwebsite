@@ -6,7 +6,7 @@ function Hero() {
       className="w-full h-[50vh] md:h-[100vh] bg-cover bg-center relative"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
-      <div className='flex flex-col absolute  top-16 left-10  lg:top-20 md:left-5 md:top-20 lg:left-45  gap-4'>
+      <div className='flex flex-col absolute  top-15 left-10 [@media(min-width:1152px)]:left-45  lg:top-20 md:left-5 md:top-20 lg:left-20  gap-4'>
         <div>
           <p className='text-green-medium  text-sm font-poppins font-extrabold lg:text-5xl md:text-4xl md:leading-13'>A holistic<br />
             approach to <br />
