@@ -11,7 +11,7 @@ function Image() {
           <img
             src={hotstone}
             className={`w-full h-full rounded-md object-cover`} />
-          <p className="absolute w-full top-30 text-center text-black font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
+          <p className="absolute w-full top-30 text-center text-gray-600 font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
             Hot Stone
           </p>
         </div>
@@ -20,7 +20,7 @@ function Image() {
           <img
             src={manipulation}
             className={`w-40 h-40 rounded-md object-cover`} />
-          <p className="absolute w-full top-30 text-center text-black font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
+          <p className="absolute w-full top-30 text-center text-gray-600 font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
             Manipulation
           </p>
         </div>
@@ -31,7 +31,7 @@ function Image() {
           <img
             src={exercise}
             className={`w-40 h-40 rounded-md object-cover`} />
-          <p className="absolute w-full top-30 text-center text-black font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
+          <p className="absolute w-full top-30 text-center text-gray-600 font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
             Exercise
           </p>
         </div>
@@ -41,7 +41,7 @@ function Image() {
           <img
             src={acupressure}
             className={`w-40 h-40 rounded-md object-cover`} />
-          <p className="absolute w-full top-30 text-center text-black font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
+          <p className="absolute w-full top-30 text-center text-gray-600 font-bold bg-transparent-white bg-opacity-50 px-1 rounded font-poppins">
             Acupressure
           </p>
         </div>
