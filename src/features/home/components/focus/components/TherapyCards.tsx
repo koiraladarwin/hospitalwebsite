@@ -19,16 +19,16 @@ function TherapyCards({
         <Header title="Therapies" />
       </div>
 
-      <div className="flex flex-col md:flex-row items-center gap-6 w-full">
+      <div className="flex flex-col md:flex-row items-center gap-12 w-full">
         <Image />
 
         <div className="flex flex-col font-poppins w-full">
-          <p className="text-orange-400 text-2xl font-bold">{title}</p>
-          <p className="text-gray-400">{subtitle}</p>
-          <p className="mt-2">{description}</p>
+          <p className="text-orange-gradient text-2xl font-semibold pb-2">{title}</p>
+          <p className="text-gray-400 text-lg">{subtitle}</p>
+          <p className="mt-2 text-md">{description}</p>
 
           <div className="mt-4">
-            <Button title="BOOK NOW" textColor="white" bgColor="bg-yellow-500" />
+            <Button title="BOOK NOW" textColor="text-white" bgColor="bg-yellow-500" />
           </div>
         </div>
       </div>
