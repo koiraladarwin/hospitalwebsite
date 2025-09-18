@@ -7,7 +7,7 @@ interface ButtonProps {
 function Button({ title, bgColor, textColor }: ButtonProps) {
   return (
     <div>
-      <button className={`${bgColor} px-6 py-3 rounded-4xl ${textColor} font-poppins shadow-md`}>{title}</button>
+      <button className={`${bgColor} px-3 py-1 text-[10px] md:text-base md:px-6 md:py-3 rounded-4xl ${textColor} font-poppins shadow-md`}>{title}</button>
     </div>
   )
 }
