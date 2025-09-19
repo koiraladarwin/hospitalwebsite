@@ -4,6 +4,7 @@ import PatientTestimonialsPage from "../../PatientTestimonials/Pages/PatientTest
 import Focus from "../components/focus/Focus"
 import Hero from "../components/hero/Hero"
 import NavBar from "../components/nav/Nav"
+import Therapy from "../components/therapy/Therapy"
 
 
 function Home() {
@@ -12,6 +13,9 @@ function Home() {
       <NavBar />
       <Hero />
       <Focus />
+      <div className="pb-20">
+        <Therapy />
+      </div>
       <ExpertDoctorsPage />
       <PatientTestimonialsPage />
       <Footer />
