@@ -1,6 +1,6 @@
-import hotstone from '../../../../../assets/hotstone..jpg'
+import hotstone from '../../../../../assets/hotstone.jpg'
 import manipulation from '../../../../../assets/manipulation.jpeg'
-import exercise from '../../../../../assets/Exercise.jpeg'
+import exercise from '../../../../../assets/exercise.jpeg'
 import acupressure from '../../../../../assets/acupressure.jpeg'
 
 function Image() {
