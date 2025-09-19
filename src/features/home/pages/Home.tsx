@@ -9,13 +9,11 @@ import Therapy from "../components/therapy/Therapy"
 
 function Home() {
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen overflow-x-hidden">
       <NavBar />
       <Hero />
       <Focus />
-      <div className="pb-20">
         <Therapy />
-      </div>
       <ExpertDoctorsPage />
       <PatientTestimonialsPage />
       <Footer />

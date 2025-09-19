@@ -16,14 +16,14 @@ function PhotoCards() {
   ];
 
   return (
-    <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 w-full pt-15 gap-y-5 lg:gap-y-0">
+    <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 w-full pt-22  gap-y-5 lg:gap-y-0">
       {cards.map((card, index) => (
         <div key={index} className="flex w-full flex-col items-center px-5">
           <div className='bg-white shadow-xl p-2 rounded-full'>
             <img
               src={card.img}
               alt={card.title}
-              className={`w-27 h-27 rounded-[50%] object-cover`}
+              className={`w-32 h-32 rounded-[50%] object-cover`}
             />
           </div>
           <h3 className={`font-poppins  ${card.title === 'NERVE COMPRESSION' ? 'text-center' : ''}`}>{card.title}</h3>

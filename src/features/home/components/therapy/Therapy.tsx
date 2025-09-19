@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import Slider from "react-slick";
 import TherapyCards from "./components/TherapyCards";
+import Header from "../focus/components/Header";
 
 
 function Therapy() {
@@ -32,9 +33,9 @@ function Therapy() {
   };
 
   return (
-    <div>
-      <div className=" mx-auto relative">
-
+    <div className="pb-20">
+      <div className="mx-auto relative">
+        <Header title="Therapies" />
         <Slider {...settings} ref={sliderRef}>
           {cardData.map((card, index) => (
             <div key={index}>
