@@ -9,7 +9,7 @@ import Therapy from "../components/therapy/Therapy"
 
 function Home() {
   return (
-    <div className="w-full min-h-screen ">
+    <div className="w-full min-h-screen">
       <NavBar />
       <div className="overflow-x-hidden">
         <Hero />
@@ -18,7 +18,6 @@ function Home() {
         <ExpertDoctorsPage />
         <PatientTestimonialsPage />
         <Footer />
-
       </div>
     </div>
   )
