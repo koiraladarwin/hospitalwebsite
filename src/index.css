@@ -47,3 +47,8 @@
   border: 2px solid white !important;
   opacity: 1;
 }
+@font-face {
+  font-family: 'Akriti-Regular';
+  src: url('./assets/fonts/Aakriti\ Regular.ttf') format('truetype');
+  font-weight: 900;
+}
