@@ -11,12 +11,14 @@ function Home() {
   return (
     <div className="w-full min-h-screen">
       <NavBar />
-      <Hero />
-      <Focus />
+      <div className="overflow-x-hidden">
+        <Hero />
+        <Focus />
         <Therapy />
-      <ExpertDoctorsPage />
-      <PatientTestimonialsPage />
-      <Footer />
+        <ExpertDoctorsPage />
+        <PatientTestimonialsPage />
+        <Footer />
+      </div>
     </div>
   )
 }
