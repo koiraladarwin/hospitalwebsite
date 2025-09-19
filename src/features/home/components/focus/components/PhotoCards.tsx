@@ -16,10 +16,10 @@ function PhotoCards() {
   ];
 
   return (
-    <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 w-full pt-10 gap-y-5 lg:gap-y-0">
+    <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 w-full pt-15 gap-y-5 lg:gap-y-0">
       {cards.map((card, index) => (
         <div key={index} className="flex w-full flex-col items-center px-5">
-          <div className='bg-white p-1 rounded-full'>
+          <div className='bg-white shadow-xl p-2 rounded-full'>
             <img
               src={card.img}
               alt={card.title}

@@ -19,7 +19,7 @@ function TherapyCards({
         <Header title="Therapies" />
       </div>
 
-      <div className="flex flex-col md:flex-row items-center gap-16 w-full">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-16 w-full">
         <Image />
 
         <div className="flex flex-col font-poppins w-full">
