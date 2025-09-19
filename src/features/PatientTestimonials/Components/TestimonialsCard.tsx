@@ -6,11 +6,11 @@ export default function TestimonialsCard()
 {
     return(
         <div className="w-full py-[5rem] px-10 flex items-center justify-center">
-            <div className="max-w-[1240px] grid md:grid-cols-3 gap-2">
+            <div className="max-w-[1240px] grid md:grid-cols-3 gap-5">
               
-                <div className="relative ">  
+                <div className="relative h-[400px]">  
                 
-                <div className="w-full flex flex-col justify-between p-5 rounded-xl  border border-orange-bg shadow-2xl h-[450px] bg-white">
+                <div className="w-full flex flex-col justify-between p-5 rounded-xl  border border-orange-bg shadow-2xl h-[400px] bg-white">
 
                     <div>
                         <img src={cardLogo} alt="" className="h-10 w-10" />
@@ -40,9 +40,9 @@ export default function TestimonialsCard()
                 </div>
 
 
-                <div className="relative">  
+                <div className="relative h-[400px]">  
                 
-                <div className="w-full flex flex-col justify-between p-5 rounded-xl  border border-orange-bg shadow-2xl h-[450px] bg-white">
+                <div className="w-full flex flex-col justify-between p-5 rounded-xl  border border-orange-bg shadow-2xl h-[400px] bg-white">
 
                     <div>
                         <img src={cardLogo} alt="" className="h-10 w-10" />
@@ -74,9 +74,9 @@ export default function TestimonialsCard()
                 </div>
 
 
-                <div className="relative">  
+                <div className="relative h-[400px]">  
                 
-                <div className="w-full flex flex-col justify-between p-5 rounded-xl  border border-orange-bg shadow-2xl h-[450px] bg-white">
+                <div className="w-full flex flex-col justify-between p-5 rounded-xl  border border-orange-bg shadow-2xl h-[400px] bg-white">
 
                     <div>
                         <img src={cardLogo} alt="" className="h-10 w-10" />
