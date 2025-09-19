@@ -24,7 +24,7 @@ export default function FooterCard()
             </div>
     
       
-            <div className="flex flex-col md:flex-row md:justify-between gap-6  p-10 pl-40 pr-40 justify-between  md:px-40">
+            <div className="flex flex-col md:flex-row md:justify-between gap-10  p-10 px-5  justify-between  md:px-40">
                 <div className="flex gap-2">
                     <FaPhone className="flex-none text-orange-bg rounded-full bg-white w-12 h-12 p-3 " />
                     <div>
@@ -57,7 +57,7 @@ export default function FooterCard()
 
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 p-10 pl-40 pr-40 justify-between md:px-40 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 p-10 px-5  justify-between md:px-40 ">
                 <div>
                     <h1 className="font-semibold">ABOUT US</h1>
                     <p>Our story</p>
