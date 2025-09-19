@@ -9,7 +9,7 @@ import Therapy from "../components/therapy/Therapy"
 
 function Home() {
   return (
-    <div className="w-full min-h-screen overflow-x-hidden">
+    <div className="w-full min-h-screen">
       <NavBar />
       <Hero />
       <Focus />
