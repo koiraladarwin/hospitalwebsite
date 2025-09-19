@@ -1,13 +1,16 @@
-import PatientTestimonialsPage from "./features/PatientTestimonials/Pages/PatientTestimonialsPage"
-import Footer from "./features/Footer/Pages/Footer"
-import ExpertDoctorsPage from "./features/MeetExpertDoctors/pages/ExpertDoctorsPage"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./features/home/pages/Home";
+
 function App() {
 
   return (
     <>
-      <ExpertDoctorsPage/>
-      <PatientTestimonialsPage/>
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
