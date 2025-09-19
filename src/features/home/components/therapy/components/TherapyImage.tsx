@@ -3,10 +3,10 @@ import manipulation from '../../../../../assets/manipulation.jpeg'
 import exercise from '../../../../../assets/exercise.jpeg'
 import acupressure from '../../../../../assets/acupressure.jpeg'
 
-function Image() {
+function TherapyImage() {
   return (
-    <div className='flex gap-4'>
-      <div className="flex flex-col gap-4 pt-15 justify-center md:pl-15">
+    <div className='flex gap-6'>
+      <div className="flex flex-col gap-4 pt-30 justify-center md:pl-15">
         <div className="relative w-40 h-50 rounded-md overflow-hidden">
           <img
             src={hotstone}
@@ -26,7 +26,7 @@ function Image() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 pt-5">
+      <div className="flex flex-col gap-4 pt-20">
         <div className="relative w-40 h-50 rounded-md overflow-hidden">
           <img
             src={exercise}
@@ -51,4 +51,4 @@ function Image() {
   )
 }
 
-export default Image
+export default TherapyImage
