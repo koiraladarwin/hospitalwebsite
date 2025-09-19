@@ -35,8 +35,8 @@ function Focus() {
   };
 
   return (
-    <div className="w-full h-[850px] bg-[#FAFAFA]">
-      <div className="w-full bg-cream px-10 pb-15">
+    <div className="w-full [@media(min-width:1152px)]:h-[900px] lg:h-[950px]  bg-white">
+      <div className="w-full bg-white h-[690px] md:h-[510px] lg:h-[380px]  px-10 py-5 ">
         <Header title="Focus" />
         <PhotoCards />
       </div>
@@ -54,7 +54,7 @@ function Focus() {
             </div>
           ))}
         </Slider>
-        <div className="flex justify-center gap-3 mt-6 px-5 absolute right-[100px] md:right-[350px] md:bottom-15">
+        <div className="flex justify-center gap-3 mt-6 px-5 absolute right-[100px] bottom-14  md:right-[300px] md:bottom-15">
           {cardData.map((_, idx) => (
             <span
               key={idx}
