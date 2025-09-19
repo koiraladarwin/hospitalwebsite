@@ -1,1 +1,40 @@
+@font-face{
+    font-family: poppins;
+    src:url("../src/assets/fonts/Poppins-Regular.ttf");
+}
+
 @import "tailwindcss";
+
+
+@theme{
+    --font-poppins: poppins;
+
+    --color-orange-bg: #FF9800;
+    --color-grey-bg: #EEEEEE;
+    --color-grey-text: #9E9E9E;
+    --color-slantedGreen: #AED582;
+    --color-copyright-bg: #212121;
+}
+
+.clip-slant {
+
+    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%);
+}
+.clip-footer{
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.swiper-pagination-bullet{
+    width: 14px !important;
+    height: 14px !important;
+    background: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 18px !important;
+  height: 18px !important;
+
+  background: transparent !important;
+  border: 2px solid white !important; 
+  opacity: 1;
+}
