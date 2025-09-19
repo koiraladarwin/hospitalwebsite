@@ -11,7 +11,7 @@ export default function PatientTestimonialsPage()
                     <span className="text-orange-bg"> Testimonials</span>
                 </h1>
 
-                <div className="absolute bottom-0 left-0 w-full h-[400px] bg-slantedGreen clip-slant z-0 "></div>       
+                <div className="absolute bottom-0 left-0 w-full h-[500px] bg-slantedGreen clip-slant z-0 "></div>       
 
                 <div>
                     <TestimonialsSlider />          
