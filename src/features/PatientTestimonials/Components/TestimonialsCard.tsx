@@ -6,7 +6,7 @@ export default function TestimonialsCard()
 {
     return(
         <div className="w-full py-[5rem] px-10 flex items-center justify-center">
-            <div className="max-w-[1240px] grid md:grid-cols-3 gap-5">
+            <div className="max-w-[1240px] grid md:grid-cols-3 gap-2">
               
                 <div className="relative ">  
                 

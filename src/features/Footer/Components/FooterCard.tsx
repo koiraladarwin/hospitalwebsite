@@ -10,11 +10,11 @@ export default function FooterCard()
 
             {/* Triangle Logo */}
 
-            <div className="absolute left-1/2 -translate-x-1/2 -top-20 w-40 h-20 bg-orange-bg clip-footer"></div>
+            <div className="absolute left-1/2 -translate-x-1/2 -top-30 w-[160px] h-[500px] bg-orange-bg clip-footer "></div>
 
 
-            <div className="flex justify-center absolute left-1/2 -translate-x-1/2 -top-14">
-                <div className="flex  bg-white rounded-full w-20 h-20 items-center justify-center">
+            <div className="flex justify-center absolute left-1/2 -translate-x-1/2 -top-14 mt-3">
+                <div className="flex  bg-white rounded-full w-20 h-20 items-center justify-center m-1">
                     <img
                     src={HospitaLogo}
                     alt="Logo"
