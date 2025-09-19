@@ -28,7 +28,9 @@
 }
 
 .clip-footer {
-  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+
+  clip-path: path("M0 120 Q80 0 160 120 Z");
+
 }
 
 .swiper-pagination-bullet {
