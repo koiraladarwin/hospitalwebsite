@@ -37,7 +37,7 @@ function Home() {
   }
 
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen bg-main-bg">
       <NavBar />
       <div className="overflow-x-hidden">
         <Hero />

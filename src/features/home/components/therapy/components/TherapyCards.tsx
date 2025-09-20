@@ -14,7 +14,7 @@ function TherapyCards({
   description = "PhysioTherapy is a treatment through physical exercise and\n electrical modalities.Physiotherapy enables individuals to\n develop, maintain, and restore maximum movement and function\n throughout life.",
 }: TherapyCardsProps) {
   return (
-    <div className="bg-white shadow-xl flex flex-col  px-24 py-6  w-full ">
+    <div className="bg-main-bg shadow-xl flex flex-col  px-24 py-6  w-full ">
       <div className=" w-full flex justify-center items-center">
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-16 w-full lg:w-[80%]">
           <TherapyImage />

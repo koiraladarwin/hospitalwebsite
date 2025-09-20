@@ -53,7 +53,7 @@ function Therapy() {
               key={idx}
               onClick={() => handleBubbleClick(idx)}
               className={`w-3 h-3 rounded-full border-2 cursor-pointer ${idx === currentSlide
-                ? "bg-white border-yellow-400"
+                ? "bg-main-bg border-yellow-400"
                 : "bg-yellow-400 border-transparent"
                 }`}
             />

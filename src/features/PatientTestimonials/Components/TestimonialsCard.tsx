@@ -31,7 +31,7 @@ export default function TestimonialsCard({text, name, location}:{
                         <div className="flex gap-5 mt-10">
                             <img src={cardImage} alt="" className="rounded-full w-15 h-15" />
                             <div className="mt-2 ">
-                                <h2 className="text-orange-bg font-bold">{name}</h2>
+                                <h2 className="text-orange-600 font-bold">{name}</h2>
                                 <p>{location}</p>
                             </div>
                             
