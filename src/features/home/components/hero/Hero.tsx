@@ -5,7 +5,6 @@ function Hero() {
   return (
     <div
       className="w-full h-[45vh] md:h-[calc(115vh-15vh)] bg-cover bg-center relative overflow-visible"
-   //   style={{ backgroundImage: `url(${heroBg})` }}
     >
 
       <div className='flex flex-col absolute top-15 left-10 [@media(min-width:1152px)]:left-35 lg:top-30 md:left-5 md:top-30 lg:left-20 gap-4'>
@@ -15,7 +14,11 @@ function Hero() {
         </p>
       </div>
 
-      <div className="absolute top-[120px] md:top-[465px] w-full px-4 md:px-10 lg:px-20 flex justify-center md:justify-end">
+      <div className='w-full ms-6 flex justify-end h-full'>
+        <img src={heroBg} className='md:h-[585px] md:w-[585px] h-full'/>
+      </div>
+
+      <div className="absolute w-full bottom-4 px-4 md:px-10 lg:px-20 flex justify-center md:justify-end">
         <div className="w-full max-w-[1600px]">
           <AppointmentForm />
         </div>
