@@ -7,6 +7,7 @@ import Focus from "../components/focus/Focus";
 import Hero from "../components/hero/Hero";
 import NavBar from "../components/nav/Nav";
 import Therapy from "../components/therapy/Therapy";
+import { SplashScreen } from "../components/splashscreen/SplashScreen";
 
 function Home() {
   const [hasInteracted, setHasInteracted] = useState(false);
@@ -29,11 +30,7 @@ function Home() {
   }, []);
 
   if (!hasInteracted) {
-    return (
-      <div className="w-full h-screen flex items-center justify-center bg-white">
-        <h1 className="text-4xl font-bold text-gray-800">Welcome to the App</h1>
-      </div>
-    );
+    return (<SplashScreen />);
   }
 
   return (

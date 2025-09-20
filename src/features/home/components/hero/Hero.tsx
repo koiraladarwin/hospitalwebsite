@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div
       className="w-full h-[45vh] md:h-[calc(115vh-15vh)] bg-cover bg-center relative overflow-visible"
-      style={{ backgroundImage: `url(${heroBg})` }}
+   //   style={{ backgroundImage: `url(${heroBg})` }}
     >
 
       <div className='flex flex-col absolute top-15 left-10 [@media(min-width:1152px)]:left-35 lg:top-30 md:left-5 md:top-30 lg:left-20 gap-4'>
