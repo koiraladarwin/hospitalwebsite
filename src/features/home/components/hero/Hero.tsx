@@ -15,7 +15,11 @@ function Hero() {
         </p>
       </div>
 
-      <div className="absolute top-[120px] md:top-[465px] w-full px-4 md:px-10 lg:px-20 flex justify-center md:justify-end">
+      <div className='w-full ms-6 flex justify-end h-full'>
+        <img src={heroBg} className='md:h-[585px] md:w-[585px] h-full'/>
+      </div>
+
+      <div className="absolute w-full bottom-4 px-4 md:px-10 lg:px-20 flex justify-center md:justify-end">
         <div className="w-full max-w-[1600px]">
           <AppointmentForm />
         </div>
