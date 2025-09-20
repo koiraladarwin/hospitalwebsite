@@ -28,7 +28,6 @@ function NavBar() {
         </ul>
 
         <div className='flex gap-4 items-center'>
-          <button className='bg-green text-white px-6 py-1 font-poppins rounded-2xl hover:bg-green-light'>Book now</button>
           <button className='bg-orange-gradient text-white px-6 py-1 font-poppins rounded-2xl hover:bg-orange-200'>Login</button>
           <FaSearch color='gray' />
         </div>
