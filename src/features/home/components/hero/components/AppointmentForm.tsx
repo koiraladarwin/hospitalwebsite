@@ -3,7 +3,7 @@ import { BsCalendar2EventFill } from "react-icons/bs";
 function AppointmentForm() {
   return (
     <div className="flex flex-col md:flex-row md:w-full font-poppins">
-      <div className="flex w-full md:w-auto bg-orange-bg justify-center items-center flex-1 md:px-3 px-1 py-1 md:py-0">
+      <div className="flex w-full md:w-auto bg-orange-bg justify-center items-center flex-1 md:px-3 px-1 py-1 md:py-0 ">
         <div className="flex flex-col gap-1 items-center justify-center">
           <BsCalendar2EventFill color='white' size={24} />
           <p className="text-center text-white whitespace-nowrap text-sm hidden md:block font-poppins">Make an Appoinment</p>

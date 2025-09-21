@@ -37,12 +37,28 @@ function Home() {
     <div className="w-full min-h-screen bg-main-bg">
       <NavBar />
       <div className="overflow-x-hidden">
-        <Hero />
-        <Focus />
-        <Therapy />
-        <ExpertDoctorsPage />
-        <PatientTestimonialsPage />
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="focus">
+          <Focus />
+        </section>
+        <section id="therapy">
+          <Therapy />
+        </section>
+
+        <section id="doctors">
+          <ExpertDoctorsPage />
+        </section>
+
+        <section id="testimonials">
+          <PatientTestimonialsPage />
+        </section>
+
+        <section id="footer">
         <Footer />
+        </section>
+
       </div>
     </div>
   );

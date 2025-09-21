@@ -17,9 +17,11 @@ function Therapy() {
 
 
   const settings = {
+    
     dots: false,
     infinite: true,
     speed: 500,
+    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -36,7 +38,7 @@ function Therapy() {
     <div className="pb-20">
       <div className="mx-auto relative">
         <Header title="Therapies" />
-        <Slider {...settings} ref={sliderRef}>
+        <Slider  {...settings} ref={sliderRef}>
           {cardData.map((card, index) => (
             <div key={index}>
               <TherapyCards
