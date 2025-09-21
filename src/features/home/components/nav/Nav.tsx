@@ -24,12 +24,12 @@ function NavBar() {
           <li><NavLink to='/' className={'hover:text-gray-light'}>About</NavLink></li>
           <li><NavLink to='/' className={'flex items-center hover:text-gray-light'}>Therapy <RiArrowDropDownLine size={20} /></NavLink></li>
           <li><NavLink to='/' className={'hover:text-gray-light'}>Our Focus</NavLink></li>
+          <li><NavLink to='/' className={'hover:text-gray-light'}>Camp & Events</NavLink></li>
           <li><NavLink to='/' className={'hover:text-gray-light'}>Contact</NavLink></li>
         </ul>
 
         <div className='flex gap-4 items-center'>
           <button className='bg-orange-gradient text-white px-6 py-1 font-poppins rounded-2xl hover:bg-orange-200'>Login</button>
-          <FaSearch color='gray' />
         </div>
       </div>
 

@@ -5,7 +5,7 @@ interface HeaderProps {
 }
 function Header({ title ,bgColor}: HeaderProps) {
   return (
-    <div className={`flex flex-row items-center pt-5 gap-4 ${bgColor} w-full px-10 md:px-40`}>
+    <div className={`flex flex-row items-center pt-5 gap-4 ${bgColor} w-full px-10 lg:px-40`}>
       <div className="border-b border-gray flex-1 "></div>
       <h1 className="text-gray-400 text-4xl">Our <span className="text-orange-400 font-poppins font-bold text-4xl">{title}</span></h1>
       <div className="border-b border-gray flex-1"></div>

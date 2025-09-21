@@ -6,10 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 function Focus() {
 
   return (
-    <div className="w-full mt-20 bg-main-bg px-10 pb-15">
+    <div className="w-full mt-5 bg-main-bg pb-15">
       <Header title="Focus" />
-      <PhotoCards />
-    </div>
+      <PhotoCards /> </div>
   );
 }
 
