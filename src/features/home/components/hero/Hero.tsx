@@ -13,7 +13,7 @@ function Hero() {
         <div className="w-full md:w-1/2 text-center md:text-left flex justify-center md:justify-end items-end">
           <p className="text-2xl font-[Akriti-Regular] font-extrabold md:text-4xl lg:text-5xl xl:text-7xl 3xl:text-8xl leading-snug md:leading-[5rem] 2xl:leading-[6rem]">
             <span className="text-orange-bg">कमर वा गर्दन <br /></span>
-         <span className="text-green pl-6 md:pl-12">दुख्नु भनेको के हो ? </span>
+           <span className="text-green pl-6 md:pl-12">दुख्नु भनेको के हो &#63; </span>     
           </p>
         </div>
 
