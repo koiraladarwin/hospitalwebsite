@@ -20,7 +20,8 @@
   --color-grey-text: #9E9E9E;
   --color-slantedGreen: #AED582;
   --color-copyright-bg: #212121;
-  --color-main-bg:#f0f0f0
+  --color-main-bg:#f0f0f0;
+  --color-dark-green:#006400;
 }
 
 .clip-slant {
