@@ -25,13 +25,13 @@ function NavBar() {
       <div className={`flex flex-col pb-5 md:flex-row  items-center gap-8 md:gap-8 md:pb-0  ${open ? 'flex' : 'hidden md:flex'}`}>
         <ul className='flex flex-col gap-3 md:flex-row lg:gap-12 md:gap-4 font-poppins text-gray '>
           <li><Link smooth={true}
-            duration={500} to='home' className={'hover:text-gray-light'}>About</Link></li>
+            duration={500} to='home' offset={-100} className={'hover:text-gray-light'}>About</Link></li>
           <li><Link smooth={true}
-            duration={500} to='therapy' className={'flex items-center hover:text-gray-light'}>Therapy </Link></li>
+            duration={500} to='therapy' offset={-100} className={'flex items-center hover:text-gray-light'}>Therapy </Link></li>
           <li><Link smooth={true}
-            duration={500} to='focus' className={'hover:text-gray-light'}>Our Focus</Link></li>
+            duration={500} to='focus' offset={-100} className={'hover:text-gray-light'}>Our Focus</Link></li>
           <li><Link smooth={true}
-            duration={500} to='/' className={'hover:text-gray-light'}>Camp & Events</Link></li>
+            duration={500} to='/' offset={-100} className={'hover:text-gray-light'}>Camp & Events</Link></li>
           <li><Link smooth={true}
             duration={500} to='footer' className={'hover:text-gray-light'}>Contact</Link></li>
         </ul>

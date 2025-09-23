@@ -32,7 +32,9 @@ function AppointmentForm() {
         <div className="flex flex-col md:gap-3 gap-1">
           <div>
             <label className="font-medium font-poppins text-[0.625rem] md:text-[0.75rem] ">Email</label>
+
             <input type="text" className="border-1 border-gray-300 placeholder-gray-500 py-1 md:py-2 px-2 outline-none text-sm w-full placeholder:text-[11px] rounded shadow-md bg-white" placeholder="Email*" />
+
           </div>
 
           <div>
@@ -41,6 +43,7 @@ function AppointmentForm() {
               type="text"
               className="border-1 border-gray-300 placeholder-gray-500 py-1 md:py-2 px-2 outline-none text-sm w-full placeholder:text-[11px] rounded-md bg-white shadow-md"
               placeholder="Hospital Id(If any)*"
+
             />
 
           </div>
