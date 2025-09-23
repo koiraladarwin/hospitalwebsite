@@ -1,5 +1,3 @@
-import { BsCalendar2EventFill } from "react-icons/bs";
-
 function AppointmentForm() {
   return (
     <div className="flex flex-col md:w-full font-poppins border-2 bg-white px-2 md:py-2 py-2   border-dark-green rounded-lg shadow-lg">
