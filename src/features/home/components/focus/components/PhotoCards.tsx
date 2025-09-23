@@ -26,7 +26,7 @@ function PhotoCards() {
               className={`w-full h-full  rounded-full object-cover`}
             />
           </div>
-          <h3 className={`font-poppins font-semibold ${card.title === 'NERVE COMPRESSION' ? 'text-center' : ''}`}>{card.title}</h3>
+          <h3 className={`font-poppins ${card.title === 'NERVE COMPRESSION' ? 'text-center' : ''}`}>{card.title}</h3>
         </div>
       ))}
     </div>
