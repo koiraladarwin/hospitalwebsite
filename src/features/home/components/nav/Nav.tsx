@@ -3,7 +3,7 @@ import { RiArrowDropDownLine } from 'react-icons/ri';
 import { FaSearch, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 import { FaBars } from 'react-icons/fa6';
-
+import {motion} from "framer-motion";
 import { Link } from "react-scroll";
 
 
@@ -19,7 +19,14 @@ function NavBar() {
         >
           {open ? <FaTimes size={24} color='gray' /> : <FaBars size={24} color='gray' />}
         </button>
-        <img src={logo} className='w-60' />
+
+        {/* <img src={logo} className='w-60' /> */}
+        <motion.img 
+        src={logo} 
+        layoutId="App-logo" 
+        className='w-60 relative' 
+        // transition={{ duration: 0.1, ease: "easeInOut" }}
+        />
       </div>
 
       <div className={`flex flex-col pb-5 md:flex-row  items-center gap-8 md:gap-8 md:pb-0  ${open ? 'flex' : 'hidden md:flex'}`}>
