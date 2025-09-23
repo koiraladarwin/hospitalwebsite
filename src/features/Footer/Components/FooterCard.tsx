@@ -14,7 +14,7 @@ export default function FooterCard() {
           <FaPhone className="flex-none text-orange-bg rounded-full bg-white w-12 h-12 p-3" />
           <div>
             <h2 className="font-semibold text-lg">Call</h2>
-            <p className="text-sm">+977-0104577909, 4573545</p>
+            <p className="text-sm">+977-01-4577909, 4573545</p>
           </div>
         </div>
 
